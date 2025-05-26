@@ -1,0 +1,16 @@
+# Medical Image Viewer Requirements
+# IEC 62304 Compliant Medical Software
+# Python 3.8+ required
+
+# Core GUI Framework
+PyQt5
+# Visualization Toolkit
+vtk
+
+# Medical Image Processing
+SimpleITK
+
+# Numerical Computing
+numpy
+
+
