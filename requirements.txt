@@ -2,15 +2,28 @@
 # IEC 62304 Compliant Medical Software
 # Python 3.8+ required
 
-# Core GUI Framework
-PyQt5
+# Core GUI Framework (Updated to PyQt6)
+PyQt6>=6.4.0
+
 # Visualization Toolkit
-vtk
+vtk>=9.1.0
 
 # Medical Image Processing
-SimpleITK
+SimpleITK>=2.1.0
 
 # Numerical Computing
-numpy
+numpy>=1.21.0
 
+# Additional utilities
+Pillow>=8.0.0  # Image processing support
+packaging>=21.0  # Version handling
 
+# Development and testing dependencies (optional)
+pytest>=7.0.0
+pytest-qt>=4.0.0
+black>=22.0.0  # Code formatting
+flake8>=4.0.0  # Linting
+
+# Documentation (optional)
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
